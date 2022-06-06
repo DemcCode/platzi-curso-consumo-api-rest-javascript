@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Miau Miaus</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Miau Miaus App</h1>
+        <span id="error"></span>
+        <section>
+            <h3>Gallery of Miau Miaus</h3>
+            <button onclick="loadRandomMiaus()">Refresh Miaus</button>
+            <article>
+                <img id="img1" alt="Imagen gatito" width="250px" height="250px">
+                <button id="btn1">Guardar a favoritos</button>
+            </article>
+            <article>
+                <img id="img2" alt="Imagen gatito" width="250px" height="250px">
+                <button id="btn2">Guardar a favoritos</button>
+            </article>
+        </section>
+        <section id="uploadMiau">
+            <h2>Sube tu Miau Miau</h2>
+            <form id="uploadForm">
+                <input type="file" name="file" id="file">
+                <button type="button" onclick="uploadMiau()">Subir tu Miau Miau</button>
+            </form>
+        </section>
+        <section id="favouriteMiaus">
+        </section>
+
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
