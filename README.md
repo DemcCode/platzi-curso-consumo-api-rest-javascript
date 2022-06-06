@@ -1,1 +1,1 @@
-# platzi-curso-consusmo-api-rest-javascript
+# platzi-curso-consumo-api-rest-javascript
